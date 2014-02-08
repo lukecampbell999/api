@@ -1,10 +1,10 @@
-# The `football.db` Web Service / HTTP JSON API
+# The `football.db` HTTP JSON API
 
-
-## API Ready to Use
+HTTP JSON APIs (Web Services) ready to use include:
 
 - [Teams](TEAMS.md)
 - [Rounds](ROUNDS.md)
+- [Games](GAMES.md)
 
 
 ## Questions? Comments?

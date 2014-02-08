@@ -1,13 +1,13 @@
 # Teams
 
-## Get teams for an event (league+season)
+## GET teams for an event (league+season)
 
-- `/event/**:key**/teams`
+- `/event/:key/teams`
 
 Examples:
 
-- `/event/**world.2014**/teams`  -- World Cup Teams (Brazil 2014)
-- `/event/**de.2013_14**/teams`  -- Deutsche Bundesliga Teams (Season 2013/14)
+- `/event/world.2014/teams`  -- World Cup Teams (Brazil 2014)
+- `/event/de.2013_14/teams`  -- Deutsche Bundesliga Teams (Season 2013/14)
 
 Results:
 
