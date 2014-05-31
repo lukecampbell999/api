@@ -3,7 +3,8 @@
 
 ## Examples
 
-List all teams for an event (league+season) `/event/:key/teams`
+
+### List all teams for an event (league+season) `/event/:key/teams`
 
 | Example                    |     |
 | -------------------------- | --- |
@@ -11,7 +12,7 @@ List all teams for an event (league+season) `/event/:key/teams`
 | `/event/en.2013_14/teams`  |  English Premier League 2013/14 Teams  |
 
 
-List all rounds for an event (league+season) `/event/:key/rounds`
+### List all rounds for an event (league+season) `/event/:key/rounds`
 
 | Example                     |     |
 | --------------------------- | --- |
@@ -19,7 +20,7 @@ List all rounds for an event (league+season) `/event/:key/rounds`
 | `/event/en.2013_14/rounds`  | English Premier League 2013/14 Rounds |
 
 
-List all rounds for today or a date `/rounds/today|:YYYY.MM.DD`
+### List all rounds for today or a date `/rounds/today|:YYYY.MM.DD`
 
 | Example              |     |
 | -------------------- | --- |
@@ -27,13 +28,14 @@ List all rounds for today or a date `/rounds/today|:YYYY.MM.DD`
 | `/rounds/2014.6.30`  |   All rounds scheduled for July 30th, 2014   |
 
 
-List all games in a round for an event (league+season) `/event/:key/round/:pos|today`
+### List all games in a round for an event (league+season) `/event/:key/round/:pos|today`
 
 | Example                          |     |
 | -------------------------------- | --- |
 | `/event/world.2014/round/20`     | 20th Round (=> Final)    |
 | `/event/en.2012_13/round/4`      | 4th Round                | 
 | `/event/en.2013_14/round/today`  | English Premier League 2013/14 - all games for today's round (or if no round scheduled for today the last one or if no last one the next upcoming one). |
+
 
 
 ## Usage
