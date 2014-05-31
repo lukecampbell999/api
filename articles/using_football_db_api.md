@@ -5,12 +5,16 @@
 
 List all teams for an event (league+season) `/event/:key/teams`
 
+|                            |     |
+| -------------------------- | --- |
 | `/event/world.2014/teams`  |  World Cup 2014 Teams                  |
 | `/event/en.2013_14/teams`  |  English Premier League 2013/14 Teams  |
 
 
 List all rounds for an event (league+season) `/event/:key/rounds`
 
+|                             |     |
+| --------------------------- | --- |
 | `/event/world.2014/rounds`  | World Cup 2014 Matchdays              |
 | `/event/en.2013_14/rounds`  | English Premier League 2013/14 Rounds |
 
@@ -44,7 +48,7 @@ request (using the JSONP technique):
 ~~~
 
 
-Or using the jQuery library using the [`getJSON` function](http://api.jquery.com/jQuery.getJSON):
+Or using the jQuery library using the [`getJSON()` function](http://api.jquery.com/jQuery.getJSON):
 
 ~~~
 $.getJSON('http://footballdb.herokuapp.com/api/event/en.2013_14/round/4?callback=?', function(json) {
