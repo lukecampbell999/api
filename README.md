@@ -9,7 +9,7 @@ HTTP JSON APIs (Web Services) ready to use include:
 
 ## Build Your Own HTTP JSON API - sportkit / sport.db.starter kits
 
-See the [sportkit](https://github.com/sportkit) org for starter kits on building your own HTTP JSON API (web services).
+See the sportkit org for [starter kits](https://github.com/sportkit) on building your own HTTP JSON API (web services).
 
 
 ## Questions? Comments?
